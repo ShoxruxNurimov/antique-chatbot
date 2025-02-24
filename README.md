@@ -1,34 +1,43 @@
-# Antika Chatbot Projesi
+# Antique Chatbot Project
 
-## Kurulum
+This project is an application that facilitates interaction between users who want to buy antique goods and a chatbot. The chatbot acts as an antique seller, answering users' questions, negotiating prices, and offering an image upload feature.
 
-1. **Backend**:
-   - `server` klasörüne gidin:
+## Installation
+
+1. **Backend (Node.js)**:
+   - Navigate to the `server` folder:
      ```bash
      cd server
      ```
-   - Gerekli paketleri yükleyin:
+   - Install the required packages:
      ```bash
      npm install
      ```
-   - Sunucuyu başlatın:
+   - Start the server:
      ```bash
      node index.js
      ```
 
-2. **Frontend**:
-   - `client` klasörüne gidin:
+2. **Frontend (React)**:
+   - Navigate to the `client` folder:
      ```bash
-     cd ../client
+     cd client
      ```
-   - Gerekli paketleri yükleyin:
+   - Install the required packages:
      ```bash
      npm install
      ```
-   - React uygulamasını başlatın:
+   - Start the React application:
      ```bash
      npm start
      ```
 
-3. **Uygulamayı Kullan**:
-   - Tarayıcıda `http://localhost:3000` adresine gidin ve chatbotu kullanın.
+## Requirements
+
+- Node.js (v16 or higher)
+- npm or yarn
+- Hugging Face API key (add it to the `.env` file)
+
+## Contributing
+
+If you would like to contribute to the project, please submit a pull request.
